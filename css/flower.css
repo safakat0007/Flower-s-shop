@@ -1,0 +1,145 @@
+/* Share Font */
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .header-title{
+   text-align: center;
+   font-size: 40px;
+   font-weight: 900;
+  }
+  .font{
+      font-family: "Lato", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: #272727;
+      
+    }
+    .bg-colour{
+        background-color:#d3a4ae;
+
+  }
+      
+    
+    nav{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      
+  
+    }
+   h2 a{
+      font-size: 45px;
+      color: rgb(224, 27, 175);
+      text-decoration: none;
+  
+   }
+   nav ul{
+      list-style: none;
+      display: flex;
+      
+  
+   }
+  nav ul li{
+      margin-right: 20px;
+      padding: 10px;
+  
+  }
+  
+  nav ul li a{
+      text-decoration: none;
+  
+  }
+  nav ul li a:hover{
+   color: skyblue;   
+  }
+  main{
+  max-width: 1440px;   
+  }
+  .container{
+     
+     display: flex;
+     width: 90%;
+     margin: 0 auto;
+    
+  
+    
+     
+       
+        
+      
+  }
+  .banner-text{
+     width: 50%;
+     margin: 100px 100px 0 100px;
+     
+        
+  }
+  .b-h1{
+   font-size: 70px;
+   font-weight: 900;  
+  
+  }
+  .b-p{
+     font-size: 18px;
+     margin: 20px 0;
+  
+     
+  }
+  .btn-primary{
+     font-size: 20px;
+     font-weight: bold;
+     background-color: #E55473;
+     padding: 20px 43px;
+     border-radius: 8px;
+     border : none;
+  
+       
+  }
+  .banner-img{
+     width: 50%;
+     margin: 100px 0px 0 100px;
+     
+      
+  }
+  .banner-img img{
+     width: 100%;
+    
+  }
+.feature-content{
+   width: 50%;
+   margin: 0 auto;
+
+}
+.F-p{
+ text-align: center;  
+}
+.feature-img{
+   display: flex;
+   justify-content: space-evenly;
+}
+.first-img img,.second-img img,.third-img img{
+ width: 300px;
+ height: 328px;  
+}
+#first{
+   background-color:#F2DEE7 ;
+   border-radius: 100% 100% 0 0;
+}
+#second{
+   background-color:#E8F3F8;
+   border-radius: 100% 100% 0 0;
+}
+#third{
+   background-color: #477D11;
+   border-radius: 100% 100% 0 0;
+}
+
+
+      
+  
+  
+  
+    
+  
